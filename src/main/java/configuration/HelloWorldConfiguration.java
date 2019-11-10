@@ -19,7 +19,7 @@ public class HelloWorldConfiguration {
     public MessageRenderer renderer() {
         MessageRenderer renderer = new HelloWorldMessageRenderer();
         renderer.setMessageProvider(provider());
-        return renderer();
+        return renderer;
     }
 
 }
